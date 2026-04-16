@@ -14,8 +14,8 @@ logging.basicConfig(
 logging.getLogger("httpx").setLevel(logging.WARNING)
 logger = logging.getLogger(__name__)
 
-TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-ADMIN_ID = os.environ.get("ADMIN_ID")
+TOKEN = 8376888091:AAH2bbaAoKHQ3khqkOS2Kch1Oh7UnKRWbME
+ADMIN_ID = 5877007064
 STATE_FILE = Path("bot_state.json")
 
 
